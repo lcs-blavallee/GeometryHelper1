@@ -51,8 +51,8 @@
 		1A03817F2B55907900F123FB /* GeometryHelper1 */ = {
 			isa = PBXGroup;
 			children = (
-				1A03818F2B55915300F123FB /* Model */,
 				1A03818E2B55913E00F123FB /* Views */,
+				1A03818F2B55915300F123FB /* Model */,
 				1A0381842B55907C00F123FB /* Assets.xcassets */,
 				1A0381862B55907C00F123FB /* Preview Content */,
 			);
