@@ -11,6 +11,7 @@
 		1A0381852B55907C00F123FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0381842B55907C00F123FB /* Assets.xcassets */; };
 		1A0381882B55907C00F123FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0381872B55907C00F123FB /* Preview Assets.xcassets */; };
 		1A0381912B55917600F123FB /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0381902B55917600F123FB /* CircleView.swift */; };
+		1A0381932B55933500F123FB /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0381922B55933500F123FB /* Circle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1A0381842B55907C00F123FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A0381872B55907C00F123FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A0381902B55917600F123FB /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		1A0381922B55933500F123FB /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		1A03817F2B55907900F123FB /* GeometryHelper1 */ = {
 			isa = PBXGroup;
 			children = (
+				1A0381802B55907900F123FB /* GeometryHelper1App.swift */,
 				1A03818E2B55913E00F123FB /* Views */,
 				1A03818F2B55915300F123FB /* Model */,
 				1A0381842B55907C00F123FB /* Assets.xcassets */,
@@ -78,7 +81,7 @@
 		1A03818F2B55915300F123FB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1A0381802B55907900F123FB /* GeometryHelper1App.swift */,
+				1A0381922B55933500F123FB /* Circle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				1A0381912B55917600F123FB /* CircleView.swift in Sources */,
 				1A0381812B55907900F123FB /* GeometryHelper1App.swift in Sources */,
+				1A0381932B55933500F123FB /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
